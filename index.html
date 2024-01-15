@@ -7,7 +7,27 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet" type="text/css">
     </head>
     <body>
+        <!-- Элемент <img /> служит для вставки изображения на страницу -->
+        <!-- Параметр src определяет путь до изображения -->
+        <!-- Параметр alt определяет текст, который будет отображаться на странице, если по какой-то причине картинка не загрузится-->
+        <img src="https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png" alt="Default firefox logo"/>
+        
+        <!-- Элемент <a>...</a> (anchor) делает текст внутри него гипессылкой -->
+        <!-- Параметр href определяет ссылку, по которой будет осуществлён переход -->
+        <!-- Параметр title определяет всплывающий текст при наведении на ссылку -->
+        <!-- Параметр target определяет, как будет открываться ссылка. Значение _blank откроет ссылку на новой вкладке -->
+        <!-- NB: Современный HTML позволяет не использовать кавычки для параметра href. Однако, следует всегда их использовать  -->
+        <!-- NB: Так же допускается использование одинарных и двойных кавычек (без смешения). Аналогично, предпочтительно выбрать один стиль и использовать его  -->
+        <a href="https://www.mozilla.org/" title="Official Mozilla Web-page" target="_blank">Link</a> 
+
+
         <h1>It's my first web-page!</h1>
+        <em>First string element</em>
+        <em>Second string element</em>
+        <em>Third string element</em>
+        <p>First block element</p>
+        <p>Second block element</p>
+        <p>Third block element</p>
         <img src="images/thunderbird-logo.png" alt="Strong blue bird keeps my e-mails" />
         <p>I'll try to do my best</p>
         <p>I'm going to use next technologies:</p>
@@ -16,6 +36,14 @@
             <li>CSS</li>
             <li>JavaScript</li>
         </ol>
+
+        <!-- Элемент input создаёт окно для ввода значения на странице -->
+        <!-- Параметр disabled не имеет значения, и определяет - активен ли элемент на странице, или нет -->
+        <input type="text" disabled />
+        <input type="text" />
+
+        <p>My cat is <b>very</b> angry</p>
+        <em>This text is italic</em>
         <p>Image from official <a href="https://design.thunderbird.net/resources/logo">Thunderbird site</a></p>
         <button>Change user</button>
         <script src="scripts/main.js"></script>
